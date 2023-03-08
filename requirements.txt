@@ -83,3 +83,13 @@ typing_extensions==4.5.0
 urllib3==1.26.14
 Werkzeug==2.2.3
 wrapt==1.14.1
+
+##### For Whisper AI Transcription #####
+numba
+numpy
+torch
+tqdm
+more-itertools
+transformers>=4.19.0
+ffmpeg-python==0.2.0
+
