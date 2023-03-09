@@ -96,3 +96,19 @@ more-itertools
 transformers>=4.19.0
 ffmpeg-python==0.2.0
 #sudo apt install ffmpeg
+
+##### For Intent Classification #####
+torch
+nltk
+
+##### For Browser Control #####
+pyautogui
+pywhatkit
+webbrowser
+
+##### For API Calls #####
+wolframalpha
+wikipedia
+
+##### For webcam control #####
+cv2
