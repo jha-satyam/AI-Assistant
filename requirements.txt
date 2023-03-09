@@ -85,7 +85,9 @@ Werkzeug==2.2.3
 wrapt==1.14.1
 
 ##### For Whisper AI Transcription #####
+SpeechRecognition
 openai-whisper
+pydub
 numba
 numpy
 torch
