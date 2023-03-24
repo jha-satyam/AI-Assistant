@@ -9,6 +9,7 @@
                 "Hey","Hi there,what can i do for you?"
             ]
         },
+
         {
             "tag":"weather",
             "patterns":[
@@ -16,6 +17,26 @@
             ],
             "responses":[
                 "weather"
+            ]
+        },
+
+        {
+            "tag":"time",
+            "patterns":[
+                "time","what's the time","whats the time","what's time","tell me the time"
+            ],
+            "responses":[
+                "time"
+            ]
+        },
+
+        {
+            "tag":"online_order",
+            "patterns":[
+                "find me","i want to order a","i want to order","order a"
+            ],
+            "responses":[
+                "online_order"
             ]
         }
     ]
