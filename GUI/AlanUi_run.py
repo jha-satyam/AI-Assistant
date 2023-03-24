@@ -9,13 +9,11 @@ import os
 from contextlib import redirect_stdout
 import io
 
-import sys
-sys.path.append(".")
-
 # Example for testing(in run function call Main() instead of wish())
 #import wish
 #import weather
-from skills import jokes
+import jokes
+
 
 class MainThread(QThread):
 

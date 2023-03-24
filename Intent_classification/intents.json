@@ -1,0 +1,22 @@
+{
+    "intents":[
+        {
+            "tag":"greeting",
+            "patterns":[
+                "Hi","Hey","How are you?","hello","Good day"
+            ],
+            "responses":[
+                "Hey","Hi there,what can i do for you?"
+            ]
+        },
+        {
+            "tag":"weather",
+            "patterns":[
+                "weather report","today's weather","whats the weather","weather forecast","weather"
+            ],
+            "responses":[
+                "weather"
+            ]
+        }
+    ]
+}
