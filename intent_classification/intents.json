@@ -288,6 +288,16 @@
             ]
         },
         {
+            "tag":"change_permission",
+            "patterns":[
+                "change permission of file","change permission of folder","change permission of directory","permission","chmod",
+                "file","directory","change mode"
+            ],
+            "responses":[
+                "change_permission"
+            ]
+        },
+        {
             "tag":"goodbye",
             "patterns":[
                 "goodbye","see you later","bye","i am leaving","have a good day"
