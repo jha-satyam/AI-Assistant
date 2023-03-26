@@ -8,11 +8,12 @@ def record_audio():
     r = sr.Recognizer()
 
     r.dynamic_energy_threshold = False
-    r.energy_threshold = 400
+    r.energy_threshold = 300
 
     with sr.Microphone() as source:
+        r.adjust_for_ambient_noise(source)
         try:
-            audio = r.listen(source, timeout=5.0)
+            audio = r.listen(source, timeout=3.0)
 
         except sr.WaitTimeoutError:
             audio = 0
@@ -57,4 +58,5 @@ def transcribed_text(result):
     except:
         return 0
 
-print(transcribed_text(result))
+if __name__ == "__main__":
+    print(transcribed_text(result))
